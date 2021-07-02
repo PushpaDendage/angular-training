@@ -1,4 +1,4 @@
-# Angular Training Roadmap July 2021
+# Angular Training Roadmap
 ### Basic of Web Development
 - HTML
 - CSS
