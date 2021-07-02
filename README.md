@@ -37,3 +37,7 @@
 ### Directives
 - What are directives and there types?
 
+
+
+
+> ### 🥳 Do follow me on [Twitter](https://twitter.com/_adarshthakur) and also read my [blogs](https://adarsh-thakur.hashnode.dev/).
