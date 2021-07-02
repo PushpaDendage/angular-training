@@ -1,2 +1,2 @@
-# angular-training-roadmap-july-2021
-A Roadmap to Angular Training 
+# Angular Training Roadmap July 2021
+
