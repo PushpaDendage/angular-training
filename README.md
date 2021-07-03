@@ -32,6 +32,7 @@
 
 ### Angular HttpClient
 - What are REST API's
+- Overview of RxJs
 - Integrating Angular Application with REST API
 
 ### Pipes
@@ -41,7 +42,10 @@
 ### Directives
 - What are directives and there types?
 
-
+### Angular Material
+- Using Angular Material
+- Forms, Cards and Tables in Agular Material
+- Form Validation and Submission
 
 
 > ### 🥳 Do follow me on [Twitter](https://twitter.com/_adarshthakur) and also read my [blogs](https://adarsh-thakur.hashnode.dev/).
