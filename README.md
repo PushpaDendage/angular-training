@@ -30,6 +30,10 @@
 - Component Communication and Interation
 - Diff Ways of Component Communiacation
 
+### Angular HttpClient
+- What are REST API's
+- Integrating Angular Application with REST API
+
 ### Pipes
 - Use of pipes
 - Building our own angular pipe
