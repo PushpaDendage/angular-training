@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular Html Training Day 2</title>
+</head>
+<!-- boolean attribute hidden,required,disabled -->
+
+<body>
+    <h2 name="Form Heading">Welcome to Day 2</h2>
+    <form>
+        <div>
+            <label for="name-input">Name*:</label>
+            <input type="text" id="name-input" required minlength="2" maxlength="4">
+            <!-- required it will make that field mandatory -->
+            <!-- minlength to restrict minimum characters -->
+            <!-- maxlength to restrict maximum characters -->
+        </div>
+        <div>
+            <label for="address-input">Address:</label>
+            <textarea type="text" id="address-input" rows=4 cols=20></textarea>
+            <!-- rows and cols on textarea tag-->
+        </div>
+        <div>
+            <label for="phone-input">Phone:</label>
+            <input type="number" id="phone-input" disabled>
+            <!-- disabled - to disable a specific form control -->
+        </div>
+        <div>
+            <label for="password-input">Password:</label>
+            <input type="password" id="password-input">
+        </div>
+        <div>
+            <label for="gender-input">Gender:</label>
+            <select name="gender-select" id="gender-input">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+            </select>
+        </div>
+        <div>
+            <button><b>Submit</b></button>
+        </div>
+    </form>
+</body>
+
+</html>
