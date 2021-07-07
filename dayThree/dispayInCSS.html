@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Display Property in CSS</title>
+    <style>
+        /* display none | inline | block | inline-block | grid | flex */
+
+
+        /* to make a block level element a inline one */
+        /* .first-div {
+            display: inline;
+            background-color:green;
+            padding: 10px;
+        } */
+        /* div {
+            display: inline;
+            background-color:green;
+        } */
+        /* to make a inline element a block level one*/
+        /* span {
+            display: block;
+        } */
+        /* to make a element as block with in the line  */
+        /* span {
+            display: inline-block;
+            background-color: red;
+            padding: 10px;
+        } */
+
+        /* to make a grid like structure with block elements */
+        /* .parent {
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr 1fr;
+        }
+
+        .parent>div {
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+        } */
+
+        .parent {
+            display: flex;
+            /* flex-direction:row-reverse;
+            flex-direction:row; */
+            flex-direction: column;
+            /* flex-direction:column-reverse; */
+            flex-wrap: wrap;
+        }
+
+        .parent>div {
+            flex: 40%;
+            background-color: yellow;
+            padding: 10px;
+            margin: 10px;
+            border: 5px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Display Property in CSS</h3>
+    <div class="parent">
+        <div>Div one fdsahhfsahhklkldsa</div>
+        <div>Div Three</div>
+        <div>Div Four</div>
+
+        <div>Div one</div>
+        <div>Div Three fsjifjkdsjfklsdjfsjifjkdsjfklsdjfsjifjkdsjfklsdjfsjifjkdsjfklsdj</div>
+        <div>Div Four</div>
+
+        <div>Div one</div>
+        <div>Div Three sapfjujsdfjksjdklj ;l fkldsklfkl;sjkldl jklfhdjshf;h;sjdh;fjksd</div>
+        <div>Div Four</div>
+    </div>
+</body>
+
+</html>

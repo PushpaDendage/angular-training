@@ -1,0 +1,49 @@
+
+/*
+child Combinator
+parent > child {
+    css property here
+}
+ */
+
+
+/* .wrapper{
+    background-color:yellow;
+}
+.wrapper > .child-one {
+    background-color:green;
+    padding: 10px;
+    font-size:24px;
+}
+.wrapper > .child-three {
+    background-color:red;
+    padding: 10px;
+    font-size:24px;
+} */
+
+
+
+/*
+Adjacent Sibling Combinator - next sibling after the given selector(exact next)
+sibling one + sibling two {
+    css property here
+}
+ */
+ /* .child-one + p {
+     background-color: yellow;
+ }
+ p + p {
+     background-color:red
+ } */
+
+
+ /*
+General Sibling Combinator - any sibling after the given selector
+sibling ~ sibling {
+    css property here
+}
+ */
+ .child-one ~ div {
+    padding: 10px;
+    background-color:green;
+ }
