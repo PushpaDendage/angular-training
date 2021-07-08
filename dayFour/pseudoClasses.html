@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Angular Training - Day Four</title>
+    <style>
+        /* .parent>div {
+            padding: 10px;
+            background-color: yellow;
+            border: 5px solid green;
+            margin: 10px;
+        } */
+
+        /* pseudo classes */
+        /* SYNTAX  selector :first-child */
+        /* .parent > div:first-child {
+            background-color: red;
+        }
+        .parent > div:last-child {
+            background-color: pink;
+        }
+        .parent > div:nth-child(2) {
+            background-color: pink;
+        }
+        .parent > div:nth-child(3) {
+            background-color: purple;
+        } */
+        /* even Child */
+        /* .parent>div:nth-child(2n) {
+            background-color: purple;
+        } */
+
+        /*  odd child */
+        /* .parent>div:nth-child(2n + 1) {
+            background-color: red;
+        }
+
+        .parent>div:hover {
+            background-color: pink;
+        } */
+
+        a:hover {
+            color: red;
+        }
+
+        /* pseudo element */
+        /* Syntax selector::pseudo-element */
+        .parent>div::before {
+            content: "ABC ----------- ";
+        }
+
+        .parent>div::after {
+            content: " -------- XYZ";
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>Welcome to Day Four</h3>
+    <div class="parent">
+        <div>Div One</div>
+        <div>Div Two</div>
+        <div>Div Three</div>
+        <div>Div Four</div>
+        <a href="http://www.google.com">Google</a>
+    </div>
+</body>
+
+</html>

@@ -1,30 +1,26 @@
-
-# Week 1
-## Day 1
+# Angular Training Week One
+## Day One
 - Anatomy of an HTML document
 - Creating First HTML Document
 - Block vs Inline Elements and Empty Elements
-- Attributes in HTML
+- Attributes in HTML - Normal Attributes | Boolean Attributes
 
-## Day 2
-- Forms in HTML
-- Introtuction to CSS
-- Diff Ways of Using CSS in WebPage
-- CSS Selectors and Classes
+## Day Two
+- Boolean Attributes
+- Basic form Controls input,textarea button,and select
+- Forms in HTML and client side validation
+- What is CSS, padding and margin?
+- Diff Ways to use CSS, inline,internal and external
+- Type, class, and ID selectors
 
-## Day 3
-- Programming Paradigm
-- Syntax and expresssion
-- Variables, Functions and Objects
-- Classes and Interfaces
+## Day Three
+- HTML Table Example
+- Combinators Descendant combinator, Child combinator(>), Adjacent sibling combinator(+) and General sibling combinator(~)
+- Box Model Content,Padding, Border and Margin
+- CSS Display Property - inline,inline-block,block,grid and flex
 
-## Day 4
-- Event Handling, Attaching Event Listners to the HTML HTML Elements
-- DOM and its API's
-- Overview of TypeScript
-
-## Day 5
-- What is Angular?
-- Angular CLI installation and commands
-- Angular Terminology
-- Project Skeleton and Structure
+## Day Four
+- Pseudo-classes and pseudo-elements
+- Overview of JavaScript
+- Adding Javascript to HTML
+- Variables and function in JavaScript
