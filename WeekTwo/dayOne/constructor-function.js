@@ -1,3 +1,4 @@
+var testOne =
 function User(userName, age, gender) {
 	// this = {}; this is implicit we do not need to define it. It is already there
 	this.name = userName;
