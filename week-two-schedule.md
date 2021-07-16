@@ -14,3 +14,7 @@
 - What is DOM in JS?
 - Accessing HTML element in JS Dynamically
 - Adding HTML Element to DOM
+## Day Four
+- Introduction to Event an Event Handing in JS
+- Adding Event using HTML & JS
+- Submmitting a Form in JS
