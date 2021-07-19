@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(122 122 122 / 56%);
+        }
+
+        input {
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            height: 25px;
+            border: none;
+            border-radius: 20px;
+            background: black;
+            color: white;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        .wrapper .heading {
+            text-align: center;
+            padding: 20px;
+            font-size: x-large;
+        }
+
+        .todo-wrapper {
+            display: flex;
+            width: 80%;
+            justify-content: space-around;
+        }
+
+        .todo-list>div {
+            min-width: 100px;
+            padding: 5px;
+            margin-top: 5px;
+            user-select: none;
+            cursor: pointer;
+        }
+
+        .todo-list>.todo:nth-child(even) {
+            background-color: white;
+            color: black;
+        }
+
+        .todo-list>.todo:nth-child(odd) {
+            background-color: black;
+            color: white;
+        }
+
+        .done {
+            text-decoration: line-through;
+        }
+
+        .instruction {
+            margin-top: 100px;
+        }
+
+        li {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="heading">Todo Application</div>
+        <div class="todo-wrapper">
+            <div class="todo-input">
+                <input type="text" name="todo" id="todoinput">
+                <button onclick="addTodo()">Add Todo</button>
+            </div>
+            <div class="todo-list" id="todo-list">
+                <div>Your Todo list will be shown here</div>
+            </div>
+        </div>
+        <div class="instruction">
+            <h3>Instructions</h3>
+            <h4>You need to create a TODO application, In which user will have input a todo and click on add.</h4>
+            <h4>After clicking on the button that todo should be added in the list on the rigth,and clicking on the item
+                from list will mark todo as done/undone</h4>
+            <h5>To Help you I have added step by step guide</h5>
+            <ul>
+                <li>Create To div section left/rigth, left will have input and button. and rigth will have the list of
+                    todos</li>
+                <li>Button will have have 'onclick' event attached to it clicking on it. will add a child div inside the
+                    todolist in right and text of that child div will be input box value</li>
+                <li>Todo list child will have different CSS styles based on there position(even/odd) </li>
+                <li>Now if you click(addEventListener) on the todo(child div) from todo list will mark/unmark the
+                    todo(add CSS to the
+                    child(line-through))</li>
+                <li>If User click on the button without typing you should not add the todo in the list</li>
+            </ul>
+        </div>
+        <h1 style="text-align: center; margin-top: 50px;">Good Luck 😇✌️</h1>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
